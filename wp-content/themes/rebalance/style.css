@@ -533,3 +533,4 @@ embed, iframe, object {max-width: 100%;}
 img#wpstats {display: none !important;}
 header.page-header {border-top: none !important;}
 .nav-menu a[aria-current="page"], .nav-menu li.current_page_parent a, .nav-menu li.current-post-ancestor a {color: #f22929;}
+.wpd-av-overlay{background:black!important;opacity:0.9!important}
