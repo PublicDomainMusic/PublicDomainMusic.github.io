@@ -70,7 +70,7 @@ var object_name = {"bgImage":"","minAge":"18","imgLogo":"","title":"Age Verifica
 <p>Its not implemented perfectly and doesn’t work with all cases. Specifically, short 1 stanza stuff. And its stupidly a recursive algorithm but it has some patches in place so that it doesn’t run for too many cycles. Luckily for any song I throw at it it handles it so it works fine I guess.</p>
 <h4 id="api">API Reference</h4>
 <p>Lyricant uses a simple URL-based API schema.</p>
-<blockquote><p>https://music.mccamon.ca/lyricant/##<strong>{Plaintext of song lyrics, LZ Compressed, Encoded as Base64}</strong></p></blockquote>
+<blockquote><p>https://publicdomainmusic.github.io/lyricant/##<strong>{Plaintext of song lyrics, LZ Compressed, Encoded as Base64}</strong></p></blockquote>
 <p>To do the compression/encoding there is a handy library called <strong>LZString</strong>:</p>
 <p><a href="http://pieroxy.net/blog/pages/lz-string/index.html">http://pieroxy.net/blog/pages/lz-string/index.html</a></p>
 <p>I specifically used <strong>Version 1.4.4</strong></p>
